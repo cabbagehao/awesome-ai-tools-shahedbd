@@ -325,6 +325,7 @@ Consumer-facing AI assistants for everyday tasks, research, and conversation.
 - [InVideo AI](https://invideo.io) — Turn text scripts into polished videos with AI voiceovers and stock footage. `#free`
 - [Opus Clip](https://opus.pro) — Automatically repurpose long-form videos into viral short clips. `#free`
 - [Captions](https://captions.ai) — AI video creator with auto-captions, eye contact correction, and translation.
+- [LiveFaceSwap AI](https://livefaceswap.ai/) — Transform a live webcam feed with a reference face and preview the result in your browser.
 
 ### AI Avatars & Presenters
 
