@@ -7,8 +7,8 @@ models, frameworks, and resources — updated for 2026.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Updated-June%202026-blue.svg)]()
-[![Tools Count](https://img.shields.io/badge/Tools-304%2B-orange.svg)]()
+[![Last Updated](https://img.shields.io/badge/Updated-October%202026-blue.svg)]()
+[![Tools Count](https://img.shields.io/badge/Tools-315%2B-orange.svg)]()
 [![GitHub Stars](https://img.shields.io/github/stars/shahedbd/awesome-ai-tools?style=social)](https://github.com/shahedbd/awesome-ai-tools/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/shahedbd/awesome-ai-tools?style=social)](https://github.com/shahedbd/awesome-ai-tools/network/members)
 
@@ -33,20 +33,15 @@ Unlike generic AI directories, every entry here is:
 
 ---
 
-## 🆕 What's New — June 2026
+## 🆕 What's New — October 2026
 
-| Added | Category |
+| Added / Changed | Category |
 |---|---|
-| Claude Opus 4, Gemini 2.5 Pro (2M context) | Foundation Models |
-| Llama 4 Scout / Maverick (MoE, multimodal) | Open-Weight Models |
-| VoltAgent, Mastra (TypeScript agent frameworks) | AI Agents |
-| Model Context Protocol (MCP) section | Developer Infrastructure |
-| Reve Image, Flux.1 (image generation) | AI Image Generation |
-| Google Veo 2, Runway Gen-4 | AI Video Generation |
-| Google Stitch (Stitch 2.0) | AI Design & Creative — UI/UX Design |
-| Google Flow (Veo 3.1 powered) | AI Video Generation |
-| Higgsfield | AI Video Generation |
-| Manychat | AI Customer Service |
+| GPT-6 family (Astra / Sol / Luna), Claude Opus 5.5 & Fable 5.1, Gemini 4 Argon, Grok 4.7 | Foundation Models |
+| DeepSeek-V4.1, Mistral Large 4 (now open weights), Gemma 4 | Foundation / Open-Weight Models |
+| Runway Gen-4.5, Google Veo 3.1 (native audio, 4K), Midjourney V8 | Media Generation |
+| Screenpipe, Bifrost, Agent QA, Orkas, Screpy, Magic Hour & more | Newly merged community PRs |
+| Sora removed — OpenAI shut down the app in April 2026 | AI Video Generation |
 
 ---
 
@@ -145,14 +140,11 @@ Publicly available weights — enabling local deployment, fine-tuning, and resea
 
 | Model | Parameters | License | Highlights |
 |---|---|---|---|
-| [Llama 4 Scout / Maverick](https://llama.meta.com/) | 17B–400B+ | Llama 4 Community | MoE architecture, multimodal `#opensource` 🔥 |
+| [Llama 4 Scout / Maverick](https://llama.meta.com/) | 17B–400B+ | Llama 4 Community | MoE architecture, multimodal, up to 10M context (Scout) `#opensource` |
 | [Qwen3](https://qwenlm.github.io/) | 0.6B–235B | Apache 2.0 | Strong multilingual & coding `#opensource` 🔥 |
-| [Mistral / Mixtral 8x22B](https://mistral.ai/) | 7B–141B | Apache 2.0 | MoE, efficient, strong instruction following `#opensource` |
+| [Gemma 4](https://deepmind.google/models/gemma) | E2B–31B | Gemma ToS | Most capable open models per Google (Apr 2026); multimodal, mobile-friendly QAT variants `#opensource` 🔥 |
+| [Mistral Small 4](https://mistral.ai/) | Mid-size | Apache 2.0 | Hybrid instruct / reasoning / coding in one efficient model `#opensource` |
 | [Phi-4](https://azure.microsoft.com/en-us/products/phi) | 14B | MIT | Small but highly capable `#opensource` |
-| [Gemma 3](https://ai.google.dev/gemma) | 1B–27B | Gemma ToS | Efficient, multimodal `#opensource` |
-| [Command R+](https://cohere.com/command) | 104B | CC-BY-NC | RAG-optimized `#opensource` |
-| [Falcon 180B](https://falconllm.tii.ae/) | 180B | Falcon License | Strong general purpose `#opensource` |
-| [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) | 132B | Databricks Open | MoE, strong coding `#opensource` |
 
 ---
 
@@ -160,15 +152,15 @@ Publicly available weights — enabling local deployment, fine-tuning, and resea
 
 Consumer-facing AI assistants for everyday tasks, research, and conversation.
 
-- ⭐ [ChatGPT](https://chat.openai.com) — The world's most popular AI assistant. Supports GPT-4o with multimodal inputs, web browsing, code execution, image generation, and persistent memory. `#free`
+- ⭐ [ChatGPT](https://chat.openai.com) — The world's most popular AI assistant. Powered by GPT-6 with multimodal inputs, web browsing, code execution, image generation, and persistent memory. `#free`
 - ⭐ [Claude](https://claude.ai) — Anthropic's assistant, praised for thoughtful long-form writing, nuanced reasoning, and safety. Excellent for document analysis and coding. `#free`
-- ⭐ [Gemini](https://gemini.google.com) — Google's multimodal assistant with deep integration into Workspace, YouTube, and Search. Advanced tier uses the 2M-token Pro model. `#free`
-- [Microsoft Copilot](https://copilot.microsoft.com) — GPT-4o powered, integrated across Windows, Office, Bing, and Edge. `#free`
+- ⭐ [Gemini](https://gemini.google.com) — Google's multimodal assistant with deep integration into Workspace, YouTube, and Search. Advanced tier uses the Gemini 4 flagship. `#free`
+- [Microsoft Copilot](https://copilot.microsoft.com) — Powered by OpenAI's latest models, integrated across Windows, Office, Bing, and Edge. `#free`
 - [Grok](https://grok.x.ai) — xAI's assistant with real-time X (Twitter) data access and strong STEM capabilities. `#free`
-- [Meta AI](https://ai.meta.com) — Available across WhatsApp, Instagram, Facebook, and Messenger. Powered by Llama 4. `#free`
+- [Meta AI](https://ai.meta.com) — Available across WhatsApp, Instagram, Facebook, and Messenger. Powered by Meta's Muse model family. `#free`
 - [Perplexity AI](https://www.perplexity.ai) — Search-first AI that cites sources inline. Best for research and fact-checking. `#free`
 - [You.com](https://you.com) — Privacy-focused AI search and assistant with multiple model options. `#free`
-- [Poe](https://poe.com) — Quora's multi-model platform: access Claude, GPT-4o, Gemini, Llama, and more in one interface. `#free`
+- [Poe](https://poe.com) — Quora's multi-model platform: access GPT-6, Claude, Gemini, Grok, and more in one interface. `#free`
 - [HuggingChat](https://huggingface.co/chat) — Open-source chatbot powered by community models (Llama, Mistral, etc.). `#opensource` `#free`
 - [DeepSeek Chat](https://chat.deepseek.com) — DeepSeek's assistant, exceptional for coding and math tasks. `#free`
 - [Kagi Assistant](https://kagi.com/assistant) — Privacy-first AI assistant with no ads, integrated with Kagi search.
@@ -183,7 +175,7 @@ Consumer-facing AI assistants for everyday tasks, research, and conversation.
 ### AI-Powered IDEs & Editors
 
 - ⭐ [Cursor](https://cursor.sh) — AI-first fork of VS Code with best-in-class autocomplete, multi-file edits, and deep codebase understanding. Supports all major LLMs. `#free`
-- ⭐ [Windsurf](https://codeium.com/windsurf) — Codeium's agentic IDE with "Cascade" flow that understands your entire codebase context. `#free`
+- ⭐ [Windsurf](https://codeium.com/windsurf) — Agentic IDE with "Cascade" flow that understands your entire codebase context. `#free`
 - [GitHub Copilot](https://github.com/features/copilot) — The most widely adopted AI coding assistant. Integrates with VS Code, JetBrains, Neovim, and more.
 - [JetBrains AI Assistant](https://www.jetbrains.com/ai/) — Native AI in IntelliJ IDEA, PyCharm, WebStorm, and all JetBrains IDEs.
 - [Replit Agent](https://replit.com/ai) — Build and deploy full-stack apps from natural language, entirely in the browser. `#free`
@@ -266,11 +258,11 @@ Consumer-facing AI assistants for everyday tasks, research, and conversation.
 
 ### Text-to-Image Models
 
-- ⭐ [Midjourney](https://midjourney.com) — Industry standard for artistic, high-quality image generation. v6 delivers photorealism and style consistency.
-- ⭐ [DALL-E 3](https://openai.com/dall-e-3) — OpenAI's image model, accessible via ChatGPT. Excellent prompt adherence and text rendering in images.
+- ⭐ [Midjourney](https://midjourney.com) — Industry standard for artistic, high-quality image generation. V8 delivers photorealism and style consistency.
+- ⭐ [GPT-Image](https://openai.com) — OpenAI's image model family (GPT-Image-2.5), accessible via ChatGPT and API. Excellent prompt adherence and text rendering in images.
 - ⭐ [Stable Diffusion 3.5](https://stability.ai) — Stability AI's open-source flagship. Run locally or via API. `#opensource`
 - [Adobe Firefly](https://firefly.adobe.com) — Commercially safe generation trained on licensed content. Integrated with Creative Cloud. `#free`
-- [Ideogram 2.0](https://ideogram.ai) — Best-in-class text rendering within generated images. `#free`
+- [Ideogram](https://ideogram.ai) — Best-in-class text rendering within generated images. `#free`
 - [Flux (Black Forest Labs)](https://blackforestlabs.ai) — State-of-the-art open-weight image generation (Flux.1 Pro/Dev/Schnell). `#opensource` 🔥
 - [Leonardo AI](https://leonardo.ai) — Fine-tuned models for game assets, concept art, and consistent characters. `#free`
 - [Playground AI](https://playground.ai) — Free AI image creator with multiple model options and styles. `#free`
@@ -306,9 +298,8 @@ Consumer-facing AI assistants for everyday tasks, research, and conversation.
 
 ### Text-to-Video & Video Generation
 
-- ⭐ [Sora](https://sora.com) — OpenAI's text-to-video model. Cinematic quality, up to 20 seconds at 1080p.
-- ⭐ [Runway Gen-4](https://runwayml.com) — Professional-grade video generation and editing. Industry standard for filmmakers.
-- ⭐ [Google Veo 2](https://deepmind.google/technologies/veo/) — Google's high-fidelity video generation with strong physics simulation.
+- ⭐ [Runway Gen-4.5](https://runway.com) — Professional-grade video generation and editing with state-of-the-art motion quality and prompt adherence. Industry standard for filmmakers.
+- ⭐ [Google Veo 3.1](https://deepmind.google/technologies/veo/) — Google's high-fidelity video generation with native audio, 1080p/4K output, and strong physics simulation.
 - 🔥 [Google Flow](https://labs.google/fx/tools/flow) — Google's AI filmmaking studio built exclusively on DeepMind's most advanced models: Veo (video), Imagen (images), and Gemini (language). Designed for cinematic storytelling with native audio generation via Veo 3.1. Supports scene-level narrative control and immersive sound-visual pairing. `#free`
 - 🔥 [Higgsfield](https://higgsfield.ai) — Cinematic AI video generation platform with a strong focus on character consistency and fine-grained motion control. Popular among creators for producing high-quality, stylized short-form video content with controllable camera movement.
 - [ImagineClip](https://imagineclip.com) — AI video generator for avatar clips, stylized scenes, and social-ready videos from prompts, images, and effects. `#free`
@@ -365,7 +356,7 @@ Consumer-facing AI assistants for everyday tasks, research, and conversation.
 - [AIVA](https://aiva.ai) — AI composer for classical, cinematic, and fully custom music. `#free`
 - [Soundraw](https://soundraw.io) — Royalty-free music customized by mood, genre, and length. `#free`
 - [Beatoven.ai](https://beatoven.ai) — AI music generation tailored for video and podcast content. `#free`
-- [Stable Audio](https://stability.ai/stable-audio) — Stability AI's music and sound effect generation model. `#free`
+- [Stable Audio 3.0](https://stability.ai/stable-audio) — Stability AI's open-weight music and sound effect generation family, trained on fully licensed data. `#free`
 - [MusicGen](https://audiocraft.metademolab.com/) — Meta's open-source music generation model. `#opensource` `#free`
 - [Mubert](https://mubert.com) — Real-time generative music streams for content creators. `#free`
 
@@ -429,17 +420,17 @@ Consumer-facing AI assistants for everyday tasks, research, and conversation.
 
 | Provider | Models Available | Key Feature |
 |---|---|---|
-| [OpenAI API](https://platform.openai.com) | GPT-4o, o3, Whisper, DALL-E | Industry standard, richest ecosystem |
-| [Anthropic API](https://www.anthropic.com/api) | Claude 3.7, Claude Opus 4 | Best for coding & safety-critical apps |
-| [Google AI / Vertex AI](https://ai.google.dev) | Gemini 2.5 Pro/Flash | 2M context, multimodal, Google Cloud |
-| [Groq](https://groq.com) | Llama, Mixtral, Gemma | Ultra-fast inference via LPU hardware `#free` |
+| [OpenAI API](https://platform.openai.com) | GPT-6 family, GPT-Image, Realtime, Transcribe | Industry standard, richest ecosystem |
+| [Anthropic API](https://www.anthropic.com/api) | Claude Opus 5.5, Fable 5.1 | Best for coding & safety-critical apps |
+| [Google AI / Vertex AI](https://ai.google.dev) | Gemini 4 Argon, Gemini 3.1 Pro | 1M context, multimodal, Google Cloud |
+| [Groq](https://groq.com) | Llama, Gemma & more | Ultra-fast inference via LPU hardware `#free` |
 | [Together AI](https://together.ai) | 50+ open models | Fast inference for open-weight models |
-| [Fireworks AI](https://fireworks.ai) | Llama, Mixtral, Qwen | Low-latency open model hosting |
+| [Fireworks AI](https://fireworks.ai) | Llama, Qwen, DeepSeek | Low-latency open model hosting |
 | [Replicate](https://replicate.com) | 1000s of models | Run any model with a single API call `#free` |
 | [Hugging Face Inference API](https://huggingface.co/inference-api) | All HF models | Largest model hub in the world `#free` |
-| [Cohere API](https://cohere.com) | Command R+, Embed | RAG-optimized, enterprise focus |
+| [Cohere API](https://cohere.com) | Command A+, Embed | RAG-optimized, enterprise focus |
 | [AI/ML API](https://aimlapi.com) | 100+ models | Unified API for 100+ models `#free` |
-| [Mistral API](https://mistral.ai/api) | Mistral, Mixtral | European provider, strong multilingual |
+| [Mistral API](https://mistral.ai/api) | Mistral Large 4, Devstral 2 | European provider, strong multilingual |
 | [Perplexity API](https://www.perplexity.ai/api) | Sonar models | Web-grounded, real-time responses |
 | [CoderPlan](https://coderplan.ai) | Claude, GPT, Gemini, DeepSeek | OpenAI-compatible gateway for AI coding tools `#free` |
 
@@ -590,7 +581,7 @@ MCP is an open standard by Anthropic for connecting AI models to external data s
 ### UI/UX Design
 
 - ⭐ [Figma AI](https://figma.com/ai) — AI-powered design suggestions, auto-layout, and content generation built into Figma.
-- 🔥 [Google Stitch](https://stitch.withgoogle.com) — Google Labs' "vibe design" tool that generates high-fidelity UI designs, multi-screen flows, and interactive prototypes from text prompts or image/sketch inputs. Powered by Gemini 2.5 Pro. Exports directly to Figma or as frontend code. `#free`
+- 🔥 [Google Stitch](https://stitch.withgoogle.com) — Google Labs' "vibe design" tool that generates high-fidelity UI designs, multi-screen flows, and interactive prototypes from text prompts or image/sketch inputs. Powered by Gemini. Exports directly to Figma or as frontend code. `#free`
 - [Uizard](https://uizard.io) — Turn hand-drawn sketches and screenshots into editable UI designs. `#free`
 - [Galileo AI](https://usegalileo.ai) — Generate complete UI designs from text descriptions in seconds.
 - [Framer AI](https://framer.com) — Build and publish full websites with AI assistance. `#free`
@@ -602,7 +593,7 @@ MCP is an open standard by Anthropic for connecting AI models to external data s
 
 - ⭐ [Canva AI](https://canva.com) — Magic Design, Magic Write, and AI image generation in the world's most popular design tool. `#free`
 - [Adobe Express](https://express.adobe.com) — Quick graphic design with Adobe Firefly AI integration. `#free`
-- [Microsoft Designer](https://designer.microsoft.com) — AI-powered graphic design tool with DALL-E integration. `#free`
+- [Microsoft Designer](https://designer.microsoft.com) — AI-powered graphic design tool with GPT-Image integration. `#free`
 - [Looka](https://looka.com) — AI logo and complete brand identity generator.
 - [Brandmark](https://brandmark.io) — AI-based logo design with brand kit generation.
 - [Napkin](https://napkin.ai) — Turn text into visual diagrams and infographics instantly. `#free`
@@ -699,7 +690,7 @@ MCP is an open standard by Anthropic for connecting AI models to external data s
 
 ### Education
 
-- ⭐ [Khan Academy Khanmigo](https://khanacademy.org/khan-labs) — AI tutor and teaching assistant powered by GPT-4. Socratic method built-in.
+- ⭐ [Khan Academy Khanmigo](https://khanacademy.org/khan-labs) — AI tutor and teaching assistant powered by OpenAI models. Socratic method built-in.
 - [Duolingo Max](https://duolingo.com/max) — AI-powered language learning with roleplay scenarios and detailed explanations.
 - [Coursera AI](https://coursera.org) — AI course recommendations and personalized learning assistance.
 - [MagicSchool AI](https://magicschool.ai) — AI tools for teachers: lesson plans, rubrics, and differentiation. `#free`
@@ -810,7 +801,7 @@ Track the state of the art across different AI capabilities.
 
 | Benchmark | What It Measures | Link |
 |---|---|---|
-| [LMSYS Chatbot Arena](https://chat.lmsys.org) | Human preference rankings via blind A/B tests | [leaderboard](https://chat.lmsys.org/?leaderboard) |
+| [LM Arena](https://lmarena.ai) | Human preference rankings via blind A/B tests | [leaderboard](https://lmarena.ai/leaderboard) |
 | [MMLU](https://paperswithcode.com/dataset/mmlu) | Multitask language understanding across 57 subjects | [results](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu) |
 | [HumanEval](https://github.com/openai/human-eval) | Python code generation correctness | [results](https://paperswithcode.com/sota/code-generation-on-humaneval) |
 | [MATH](https://github.com/hendrycks/math) | Competition-level mathematics | [results](https://paperswithcode.com/sota/math-word-problem-solving-on-math) |
