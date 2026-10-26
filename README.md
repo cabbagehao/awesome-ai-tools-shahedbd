@@ -2,10 +2,11 @@
 
 # 🤖 Awesome AI Tools
 
-**A meticulously curated, community-driven directory of the best AI tools,
-models, frameworks, and resources — updated for 2026.**
+**A meticulously curated, community-driven directory of 300+ AI tools,
+models, frameworks, and resources — refreshed October 2026.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![CI](https://github.com/shahedbd/awesome-ai-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/shahedbd/awesome-ai-tools/actions/workflows/ci.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Updated](https://img.shields.io/badge/Updated-October%202026-blue.svg)]()
 [![Tools Count](https://img.shields.io/badge/Tools-315%2B-orange.svg)]()
@@ -51,14 +52,14 @@ The highest-impact tools across every category, hand-selected for quality.
 
 | Tool | Category | Why It's Essential |
 |---|---|---|
-| [ChatGPT](https://chat.openai.com) | Chatbot | World's most popular AI assistant — multimodal, with memory |
-| [Claude](https://claude.ai) | Chatbot | Best for long-form writing, reasoning, and document analysis |
-| [Cursor](https://cursor.sh) | Coding | Best-in-class AI IDE — multi-file edits, codebase understanding |
+| [ChatGPT](https://chatgpt.com) | Chatbot | World's most popular AI assistant — multimodal, with memory |
+| [Claude](https://claude.com) | Chatbot | Best for long-form writing, reasoning, and document analysis |
+| [Cursor](https://cursor.com) | Coding | Best-in-class AI IDE — multi-file edits, codebase understanding |
 | [Midjourney](https://midjourney.com) | Image Gen | Industry standard for artistic, high-quality image generation |
 | [ElevenLabs](https://elevenlabs.io) | Voice/TTS | Most realistic voice synthesis and cloning available |
 | [Perplexity AI](https://perplexity.ai) | Search | AI search with inline citations — best for research |
 | [LangChain](https://langchain.com) | Dev Framework | Most widely adopted LLM application framework |
-| [Ollama](https://ollama.ai) | Local Inference | Easiest way to run any LLM locally |
+| [Ollama](https://ollama.com) | Local Inference | Easiest way to run any LLM locally |
 | [Suno AI](https://suno.com) | Music Gen | Generate complete songs from a text prompt |
 | [n8n](https://n8n.io) | Automation | Open-source workflow automation with AI nodes |
 
@@ -110,6 +111,7 @@ The highest-impact tools across every category, hand-selected for quality.
 - [📈 Benchmarks & Leaderboards](#-benchmarks--leaderboards)
 - [🌐 Communities & Newsletters](#-communities--newsletters)
 - [📋 Related Awesome Lists](#-related-awesome-lists)
+- [⭐ Star History](#-star-history)
 - [🤝 Contributing](#contributing)
 
 </details>
@@ -152,8 +154,8 @@ Publicly available weights — enabling local deployment, fine-tuning, and resea
 
 Consumer-facing AI assistants for everyday tasks, research, and conversation.
 
-- ⭐ [ChatGPT](https://chat.openai.com) — The world's most popular AI assistant. Powered by GPT-6 with multimodal inputs, web browsing, code execution, image generation, and persistent memory. `#free`
-- ⭐ [Claude](https://claude.ai) — Anthropic's assistant, praised for thoughtful long-form writing, nuanced reasoning, and safety. Excellent for document analysis and coding. `#free`
+- ⭐ [ChatGPT](https://chatgpt.com) — The world's most popular AI assistant. Powered by GPT-6 with multimodal inputs, web browsing, code execution, image generation, and persistent memory. `#free`
+- ⭐ [Claude](https://claude.com) — Anthropic's assistant, praised for thoughtful long-form writing, nuanced reasoning, and safety. Excellent for document analysis and coding. `#free`
 - ⭐ [Gemini](https://gemini.google.com) — Google's multimodal assistant with deep integration into Workspace, YouTube, and Search. Advanced tier uses the Gemini 4 flagship. `#free`
 - [Microsoft Copilot](https://copilot.microsoft.com) — Powered by OpenAI's latest models, integrated across Windows, Office, Bing, and Edge. `#free`
 - [Grok](https://grok.x.ai) — xAI's assistant with real-time X (Twitter) data access and strong STEM capabilities. `#free`
@@ -174,7 +176,7 @@ Consumer-facing AI assistants for everyday tasks, research, and conversation.
 
 ### AI-Powered IDEs & Editors
 
-- ⭐ [Cursor](https://cursor.sh) — AI-first fork of VS Code with best-in-class autocomplete, multi-file edits, and deep codebase understanding. Supports all major LLMs. `#free`
+- ⭐ [Cursor](https://cursor.com) — AI-first fork of VS Code with best-in-class autocomplete, multi-file edits, and deep codebase understanding. Supports all major LLMs. `#free`
 - ⭐ [Windsurf](https://codeium.com/windsurf) — Agentic IDE with "Cascade" flow that understands your entire codebase context. `#free`
 - [GitHub Copilot](https://github.com/features/copilot) — The most widely adopted AI coding assistant. Integrates with VS Code, JetBrains, Neovim, and more.
 - [JetBrains AI Assistant](https://www.jetbrains.com/ai/) — Native AI in IntelliJ IDEA, PyCharm, WebStorm, and all JetBrains IDEs.
@@ -480,7 +482,7 @@ Monitor, debug, and improve your LLM applications in production.
 
 ### Model Deployment & Local Inference
 
-- ⭐ [Ollama](https://ollama.ai) — The easiest way to run LLMs locally. One command to download and run any model. `#opensource` `#free`
+- ⭐ [Ollama](https://ollama.com) — The easiest way to run LLMs locally. One command to download and run any model. `#opensource` `#free`
 - ⭐ [vLLM](https://vllm.ai) — High-throughput LLM serving with PagedAttention. Production-grade performance. `#opensource` `#free`
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) — Run LLMs on CPU (and GPU) with minimal dependencies. `#opensource` `#free`
 - [LM Studio](https://lmstudio.ai) — Desktop app to discover, download, and run local LLMs with a clean UI. `#free`
@@ -510,7 +512,7 @@ MCP is an open standard by Anthropic for connecting AI models to external data s
 - [ToolHive](https://toolhive.io) — Find and deploy MCP servers with one click. `#free`
 - [Smithery](https://smithery.ai) — MCP server registry and marketplace for the community. `#free`
 - [mcp-use](https://github.com/mcp-use/mcp-use) — Open-source library to connect any LLM to MCP servers. `#opensource`
-- [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - MCP server, API, and SDKs for X/Twitter data workflows, including tweet search, user lookup, follower export, monitors, HMAC webhooks, and write actions. `#opensource` `#api`
+- [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — MCP server, API, and SDKs for X/Twitter data workflows, including tweet search, user lookup, follower export, monitors, HMAC webhooks, and write actions. `#opensource` `#api`
 
 ---
 
@@ -745,8 +747,6 @@ MCP is an open standard by Anthropic for connecting AI models to external data s
 - [Promptfoo](https://promptfoo.dev) — Test, evaluate, and red-team prompts systematically. `#opensource` `#free`
 - [LangSmith](https://smith.langchain.com) — Prompt management with A/B testing and full tracing. `#free`
 - [Vellum](https://vellum.ai) — Prompt engineering, testing, and deployment platform for teams. `#free`
-
-
 - [PromptBase](https://promptbase.com) — Marketplace for buying and selling high-quality prompts.
 - [FlowGPT](https://flowgpt.com) — Community for sharing and discovering prompts across use cases. `#free`
 
@@ -773,7 +773,7 @@ MCP is an open standard by Anthropic for connecting AI models to external data s
 | [LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/) | Full Stack Deep Learning | Intermediate | Free |
 | [Building LLM Apps](https://deeplearning.ai/short-courses/) | DeepLearning.AI | Beginner | Free |
 | [CS224N: NLP with Deep Learning](https://web.stanford.edu/class/cs224n/) | Stanford | Advanced | Free |
-| [MIT 6.S191: Deep Learning](http://introtodeeplearning.com) | MIT | Intermediate | Free |
+| [MIT 6.S191: Deep Learning](https://introtodeeplearning.com) | MIT | Intermediate | Free |
 | [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) | Google | Beginner | Free |
 
 ### Books
@@ -852,7 +852,13 @@ Track the state of the art across different AI capabilities.
 - [Awesome MLOps](https://github.com/visenger/awesome-mlops) — MLOps tools, platforms, and resources.
 - [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai) — Generative AI tools and resources.
 - [Awesome Open Source AI](https://github.com/alvinreal/awesome-opensource-ai) — Open-source AI projects worth knowing.
-- [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-generative-ai) — AI-assisted coding tools and workflows.
+- [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding) — AI-assisted coding tools and workflows.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=shahedbd/awesome-ai-tools&type=Date)](https://star-history.com/#shahedbd/awesome-ai-tools&Date)
 
 ---
 
@@ -860,18 +866,13 @@ Track the state of the art across different AI capabilities.
 
 Contributions are what make this list great — and they're always welcome!
 
-### Quick Checklist
+**Please read the full [Contributing Guide](CONTRIBUTING.md) before submitting.** The short version:
 
-Before submitting a PR, ensure your entry meets these standards:
-
-- [ ] The tool is **actively maintained** (last update within 12 months)
-- [ ] The tool provides **genuine value** — not just a thin API wrapper
-- [ ] Your entry follows the format: `[Tool Name](https://url.com) — Brief description. #tag`
-- [ ] The tool is placed in the **most appropriate category**
-- [ ] You've checked for **duplicates**
-- [ ] New categories have at least **5 quality tools** to justify inclusion
-
-### How to Contribute
+- [ ] The tool is **actively maintained** and provides **genuine value** — not a thin API wrapper
+- [ ] Your entry follows the format: `[Tool Name](https://url.com) — Brief description. `#tag``
+- [ ] The tool is placed in the **most appropriate category**, with **no duplicates**
+- [ ] Descriptions are **in English**, factual, and free of marketing copy or UTM/tracking links
+- [ ] The ⭐ Editor's Pick badge is applied by maintainers only — please don't self-assign it
 
 ```bash
 # 1. Fork the repository
@@ -884,3 +885,4 @@ git commit -m "Add [Tool Name] to [Category]"
 
 # 5. Push and open a Pull Request
 git push origin add/tool-name
+```
