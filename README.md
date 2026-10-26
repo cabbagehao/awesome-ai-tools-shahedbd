@@ -635,6 +635,7 @@ MCP is an open standard by Anthropic for connecting AI models to external data s
 - [FeedHive](https://feedhive.io) — AI-powered social media management with performance prediction. `#free`
 - [Taplio](https://taplio.com) — AI LinkedIn content creation, scheduling, and analytics.
 - [Postwise](https://postwise.ai) — AI tweet and LinkedIn post writer with viral hook suggestions.
+- [SocialEcho](https://www.socialecho.cn/) — AI social media workspace for cross-platform publishing, a unified inbox with AI auto-replies, social listening, and analytics across 10 platforms via official APIs. `#free`
 
 ### CRM & Sales Automation
 
@@ -658,6 +659,7 @@ MCP is an open standard by Anthropic for connecting AI models to external data s
 - [Helpshift](https://helpshift.com) — AI-powered mobile customer support with in-app messaging.
 - [IrisAgent](https://irisagent.com) — AI support agent for Zendesk, Salesforce, Intercom, and Freshworks across chat, email, voice, and SMS.
 - [Manychat](https://manychat.com) — Conversational marketing and automation platform for Instagram DMs, WhatsApp, Facebook Messenger, and SMS. Uses AI to automate lead capture, customer replies, and sales funnels at scale. Widely adopted by e-commerce and creator businesses. `#free`
+- [Instant Reply](https://www.instantreply.co/) — AI inbox for Instagram, Messenger, and WhatsApp DMs that answers routine questions from approved business details and hands complex conversations to a human. `#free`
 
 ---
 
