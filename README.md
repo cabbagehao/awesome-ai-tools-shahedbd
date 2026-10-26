@@ -188,6 +188,7 @@ Consumer-facing AI assistants for everyday tasks, research, and conversation.
 
 - ⭐ [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's terminal-based agentic coding tool. Highly configurable, runs autonomously on complex tasks. `#free`
 - ⭐ [Codex (OpenAI)](https://github.com/openai/codex) — OpenAI's open-source agentic coding agent: a terminal CLI plus a ChatGPT cloud agent that plans, edits, and verifies changes across your repo. `#opensource` `#free`
+- ⭐ [OpenCode](https://github.com/anomalyco/opencode) — Open-source, model-agnostic coding agent for the terminal — bring any LLM provider, local or cloud. One of the fastest-growing OSS projects in the space. `#opensource` `#free`
 - [Devin](https://cognition.ai/devin) — The first "AI software engineer" by Cognition. Handles entire engineering tasks end-to-end.
 - [SWE-agent](https://swe-agent.com) — Princeton's open-source agent that autonomously solves GitHub issues. `#opensource` `#free`
 - [Aider](https://aider.chat) — Terminal-based AI pair programmer that edits code directly in your local git repo. `#opensource` `#free`
